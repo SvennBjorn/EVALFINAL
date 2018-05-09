@@ -1,0 +1,1 @@
+Select users.firstname as "prénom", users.lastname as "nom", articles.* FROM users Left Join articles articles on users.id = articles.id_users where articles.id = 10
